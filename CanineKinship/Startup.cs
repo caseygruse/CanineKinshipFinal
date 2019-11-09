@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(EliteK9.Startup))]
-namespace EliteK9
+[assembly: OwinStartupAttribute(typeof(CanineKinship.Startup))]
+namespace CanineKinship
 {
     public partial class Startup
     {

@@ -1,4 +1,4 @@
-namespace EliteK9.Migrations
+namespace CanineKinship.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

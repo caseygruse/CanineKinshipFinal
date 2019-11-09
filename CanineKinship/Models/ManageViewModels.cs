@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace EliteK9.Models
+namespace CanineKinship.Models
 {
     public class IndexViewModel
     {

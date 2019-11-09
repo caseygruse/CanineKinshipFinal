@@ -1,18 +1,18 @@
-namespace EliteK9.Migrations
+namespace CanineKinship.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EliteK9.Models.ApplicationDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<CanineKinship.Models.ApplicationDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EliteK9.Models.ApplicationDbContext context)
+        protected override void Seed(CanineKinship.Models.ApplicationDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

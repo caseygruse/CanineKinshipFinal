@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using SendGrid.Helpers.Mail;
 using SendGrid;
 
-namespace EliteK9.Models
+namespace CanineKinship.Models
 {
     public static class SendGridEmail
     {

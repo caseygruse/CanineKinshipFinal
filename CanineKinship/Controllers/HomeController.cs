@@ -1,4 +1,4 @@
-﻿using EliteK9.Models;
+﻿using CanineKinship.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using SendGrid.Helpers.Mail;
 using System.Net.Mail;
 
 
-namespace EliteK9.Controllers
+namespace CanineKinship.Controllers
 {
     public class HomeController : Controller
     {

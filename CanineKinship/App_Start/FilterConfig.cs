@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace EliteK9
+namespace CanineKinship
 {
     public class FilterConfig
     {

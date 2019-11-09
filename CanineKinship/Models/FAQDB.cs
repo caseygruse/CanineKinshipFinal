@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EliteK9.Models
+namespace CanineKinship.Models
 {
     public static class FAQDB
     {

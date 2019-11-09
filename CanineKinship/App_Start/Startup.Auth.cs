@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using EliteK9.Models;
+using CanineKinship.Models;
 
-namespace EliteK9
+namespace CanineKinship
 {
     public partial class Startup
     {

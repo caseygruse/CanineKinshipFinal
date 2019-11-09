@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using EliteK9.Models;
+using CanineKinship.Models;
 
-namespace EliteK9
+namespace CanineKinship
 {
     public class EmailService : IIdentityMessageService
     {

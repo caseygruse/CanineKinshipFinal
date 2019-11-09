@@ -13,7 +13,7 @@ using Google.Apis.Auth.OAuth2.Flows;
 
 
 
-namespace EliteK9.Models
+namespace CanineKinship.Models
 {
     public static class Calendar
     {
@@ -21,7 +21,7 @@ namespace EliteK9.Models
         public static Events GetCalendarEvents()
         {
             string[] Scopes = { CalendarService.Scope.CalendarReadonly };
-            string ApplicationName = "EliteK9";
+            string ApplicationName = "CanineKinship";
 
 
             //https://docs.microsoft.com/en-us/visualstudio/debugger/remote-debugging-azure?view=vs-2017
