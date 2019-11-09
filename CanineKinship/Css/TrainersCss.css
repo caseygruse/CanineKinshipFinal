@@ -1,0 +1,37 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic);
+
+
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thumbnail {
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+    .thumbnail img {
+        width: 100%;
+    }
+
+.trainer{
+	border: 2px solid #ffa500; 
+}
+
+#title {
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,112 @@
+﻿.pageHeader{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.description {
+    font-size: larger;
+}   
+
+.warningHeading {
+    color: #ffa500;
+    margin-top: 50px;
+    
+    
+}
+.warningText {
+    /*color: #3931af;*/
+}
+
+.classHeader{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.spacing{
+    margin-bottom: 10px;
+}
+
+.hrStyle{
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    /*background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);*/
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.secondaryHeading{
+    font-weight: bold;
+}
+
+
+
+.qualificationsText {
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+    
+   
+}
+
+#warning{
+    color: black;
+    font: archivo;
+}
+
+
+
+
+.how-section1 {
+    margin-top: -15%;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+    .how-section1 h4 {
+        color: #ffa500;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .how-section1 .subheading {
+        color: #3931af;
+        font-size: 20px;
+    }
+
+    .how-section1  {
+        margin-top: 10%;
+    }
+
+.how-img {
+    /*text-align: center;*/
+}
+
+.how-img {
+    width: 40%;
+}    
+
+.rowSpace{
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.image {
+    border: 2px solid #ffa500;
+    width: 100%;  
+}
+
+.dateLink {
+    color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-top: 35px;
+
+}

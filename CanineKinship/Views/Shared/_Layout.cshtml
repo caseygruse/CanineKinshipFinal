@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Css/LayoutCss.css" rel="stylesheet">
+
+    <title>@ViewBag.Title Elite_K9</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    @RenderSection("head", false)
+
+    @* RenderSection specifies what section you want rendered and where.
+        you create the section on another page and call render see FAQ for example*@
+
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" alt="submit send email form" aria-label="submit email">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img src="~/images/pawPrint.png" style="margin-top: 5px;" alt="paw print"/>
+                @Html.ActionLink("Elite K_9", "Index", "Home", new { area = "" }, new { @class = "navbar-brand title" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Class Descriptions", "Services", "Scheduling")</li>
+                    <li>@Html.ActionLink("Class Dates", "Schedule", "Scheduling")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("FAQ", "FAQ", "Home")</li>
+                    <li>@Html.ActionLink("Trainers", "Trainers", "Home")</li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Admin", "AdminNavigation", "Admin")</li>
+                    }
+
+                </ul>
+                @Html.Partial("_LoginPartial")
+                <img src="~/images/pawPrint.png" style="margin-top: 5px;" alt="paw print"/>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+    <footer>
+        <p class="copyright">&copy; @DateTime.Now.Year - Elite K9 </p>   
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
