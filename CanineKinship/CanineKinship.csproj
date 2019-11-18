@@ -277,6 +277,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="googledf8b1ca73fbad617.html" />
+    <Content Include="images\CanineKinshipLogo.jpg" />
     <Content Include="images\dog1.jpeg" />
     <Content Include="images\dog10.jpeg" />
     <Content Include="images\dog11.jpeg" />

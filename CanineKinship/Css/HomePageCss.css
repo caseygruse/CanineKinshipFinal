@@ -17,7 +17,7 @@ body {
     /*height: 238px;*/
     /*background: url('/images/dog21.jpg') center center no-repeat scroll;*/
     /*margin-top: 25px;
-    border: 4px solid #ffa500;*/  
+    border: 4px solid #ffa500;*/
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
@@ -31,8 +31,14 @@ body {
 .img-center {
     margin: 0 auto;
     border: 4px solid #ffa500;
-    
 }
 
+.pillarSpace {
+    margin: 30px;
+}
+
+.rowText {
+    padding: 50px;
+}
 
 
