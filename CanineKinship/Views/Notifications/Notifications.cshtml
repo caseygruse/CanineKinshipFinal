@@ -4,7 +4,7 @@
     ViewBag.Title = "Notifications";
 }
 
-<h2>Notifications</h2>
+<h2>Events</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,7 +12,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Title)
+            <h3>@Html.DisplayNameFor(model => model.Title)</h3>
         </th>
         <th>
             @Html.DisplayNameFor(model => model.NotificationText)

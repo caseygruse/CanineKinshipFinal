@@ -18,11 +18,11 @@
 <div class="container">
     <hr>
     <div class="row">
-        <div class="col-sm-4">
+        <div class="col-lg-4">
             <img src="~/images/HomeDog.jpeg" style="width: 350px; height: 500px;"/>
         </div>
-        <div class="col-sm-8 missionStatement">
-            <h2>What We Do</h2>
+        <div class="col-lg-8 missionStatement">
+            <h2 style="color: purple; font-family: myFirstFont;">What We Do</h2>
             <p>Canine Kinship has been offering a high level of specialized training for the past eighteen years. We specialize in canine communication, teaching everything from the basics to Advanced Sports work, such as agility, scent work, Rally, competition obedience, and AKC testing and Trick Dog testing. We offer a variety of group classes as well as private one-on-one sessions, that can be done at our facility or in the comfort of your own home. </p>
             <p>Our training methods are a combination of positive reinforcement with marking Behavior techniques, as well as cue and correction training. We do not employ prong collars, choke chains, or E collars in our regular classes. We do however teach proper use and handling of all different training aids to better help our clients to understand what will work best for them and their dog.</p>
 
@@ -46,42 +46,41 @@
         <a href="https://www.facebook.com/CanineKinshipTacoma/"> <img src="~/images/f-ogo_RGB_HEX-58.png" alt="facebook symbol" /> </a>*@
         </div>
     </div>
-    <div>
+    <div style="padding-top: 50px; padding-bottom: 50px; text-align: center;">
         @Html.Action("UserNotifications")
     </div>
     <!-- /.row -->
-    <hr>
-    <div class="row pillarSpace">
-        <div class="col-sm-4">
+    <div class="row">
+        <div class="col-lg-7 rowText">
+            <h2>Training Classes</h2>
+            <p>We offer training classes for a variety of behaviors Including basic obedience, advanced obedience and many more. View our course description to pick what is right for you and your companion. </p>
+        </div>
+        <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Services", "Scheduling")'>
                 <img class="img-circle img-responsive img-center" src="~/images/dog2.jpeg" alt="A service dog">
             </a>
         </div>
-        <div class="col-lg-6 rowText">
-            <h2>Training Classes</h2>
-            <p>We offer training classes for a variety of behaviors Including basic obedience, advanced obedience and many more. View our course description to pick what is right for you and your companion. </p>
-        </div>
     </div>
-    <div class="row pillarSpace">
-        <div class="col-sm-4">
+    <div class="row">
+        <div class="col-lg-7 rowText">
+            <h2>Class Schedule</h2>
+            <p>Our class schedule shows the starting class for each series of classes. If you viewed the classes we offer and know what class is right for you, view our class schedule and send us an email to RSVP. </p>
+        </div>
+        <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Schedule", "Scheduling")'>
                 <img class="img-circle img-responsive img-center" src="~/images/dog7.jpeg" alt="A dog">
             </a>
         </div>
-        <div class="col-lg-6 rowText">
-            <h2>Class Schedule</h2>
-            <p>Our class schedule shows the starting class for each series of classes. If you viewed the classes we offer and know what class is right for you, view our class schedule and send us an email to RSVP. </p>
-        </div>
     </div>
-    <div class="row pillarSpace">
-        <div class="col-sm-4">
+    <div class="row">
+        <div class="col-lg-7 rowText">
+            <h2>Trainers</h2>
+            <p>At Canine Kinship we have experienced trainers who have built strong relationships between dogs and owners. Each trainer is knowledgable and dedicated to creating a better life for you and your dogs.</p>
+        </div>
+        <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Trainers", "Home")'>
                 <img class="img-circle img-responsive img-center" src="~/images/dog6.jpeg" alt="A dog training sign">
             </a>
-        </div>
-        <div class="col-lg-6 rowText">
-            <h2>Trainers</h2>
-            <p>At Canine Kinship we have experienced trainers who have built strong relationships between dogs and owners. Each trainer is knowledgable and dedicated to creating a better life for you and your dogs.</p>
         </div>
     </div>
     <!-- /.row -->

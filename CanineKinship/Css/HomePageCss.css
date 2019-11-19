@@ -35,10 +35,12 @@ body {
 
 .pillarSpace {
     margin: 30px;
+    float: right;
 }
 
 .rowText {
     padding: 50px;
+    padding-top: 100px;
 }
 
 .missionStatement{
