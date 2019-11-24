@@ -1,22 +1,81 @@
 ﻿@model IEnumerable<CanineKinship.Models.Notifications>
 
+<style>
+
+
+    .event {
+        /*width: 90%;*/
+        /*height: 200px;*/
+        background-color: white;
+        box-shadow: 0 0 20px 0px #949494;
+        /*margin: 100px;*/
+        font-family: arial;
+    }
+
+    .cal {
+        /*width: 200px;*/
+        height: 200px;
+        background-color: #834699;
+        /*margin-right: 25px;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .day, .month {
+        width: 100%;
+        text-align: center;
+        color: white;
+        padding-top: 10px
+    }
+
+    .day {
+        /*font-size: 100px;*/
+        font-weight: lighter;
+    }
+
+    .month {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .title, .details {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 2em;
+    }
+</style>
+
+
 <h1 style="color: forestgreen; font-family: myFirstFont; font-size: 60px;">
     Events
 </h1>
+
 <hr />
 
 
-@foreach (var item in Model) {
-    <div class="row">
-        <div class="col-lg-4" style="font-size: 30px;  color: purple">
-            @Html.DisplayFor(modelItem => item.Title)  -
+@foreach (var item in Model)
+{
+    <div class="row event">
+        <div class="cal col-xs-3">
+            <div class="day">16</div>
+            <div class="month">Aug</div>
         </div>
-        <div class="col-lg-8" style="float:left; font-size: 20px;" >
-            @Html.DisplayFor(modelItem => item.NotificationText)
+        <div class="eventDetails col-xs-9">
+            <div class="title" style="color: purple">
+                @Html.DisplayFor(modelItem => item.Title)  -
+            </div>
+            <div class="details" style="">
+                @Html.DisplayFor(modelItem => item.NotificationText)
+            </div>
         </div>
     </div>
     <hr />
-       
 }
+
+
+
 
 
