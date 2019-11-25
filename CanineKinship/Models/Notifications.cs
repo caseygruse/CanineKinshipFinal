@@ -16,5 +16,9 @@ namespace CanineKinship.Models
         [Required]
         public string NotificationText { get; set; }
 
+        public string Month { get; set; }
+
+        public string Day { get; set; }
+
     }
 }

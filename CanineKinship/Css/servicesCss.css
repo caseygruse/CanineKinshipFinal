@@ -10,7 +10,7 @@
 }   
 
 .warningHeading {
-    color: #ffa500;
+    color: purple;
     margin-top: 50px;
     
     
@@ -70,13 +70,13 @@
 }
 
     .how-section1 h4 {
-        color: #ffa500;
+        color: purple;
         font-weight: bold;
         font-size: 30px;
     }
 
     .how-section1 .subheading {
-        color: #3931af;
+        color: forestgreen;
         font-size: 20px;
     }
 
@@ -108,5 +108,4 @@
     text-align: center;
     margin: 0;
     margin-top: 35px;
-
 }

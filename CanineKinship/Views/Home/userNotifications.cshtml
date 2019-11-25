@@ -10,6 +10,7 @@
         box-shadow: 0 0 20px 0px #949494;
         /*margin: 100px;*/
         font-family: arial;
+        margin-bottom: 20px;
     }
 
     .cal {
@@ -62,8 +63,8 @@
 {
     <div class="row event">
         <div class="cal col-xs-3">
-            <div class="day">16</div>
-            <div class="month">Aug</div>
+            <div class="day">@Html.DisplayFor(modelItem => item.Day)</div>
+            <div class="month">@Html.DisplayFor(modelItem => item.Month)</div>
         </div>
         <div class="eventDetails col-xs-9">
             <div class="title" style="color: purple">

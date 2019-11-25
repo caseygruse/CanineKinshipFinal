@@ -8,7 +8,7 @@
 }
 
 .title {
-color: #ffa500 !important;
+color: forestgreen !important;
 font-family: myFirstFont;
   
 }
@@ -29,4 +29,5 @@ footer {
 .copyright{
     padding-left: 50%;
 }
+
 

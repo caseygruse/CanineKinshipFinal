@@ -15,7 +15,7 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
-            <img src="~/images/CanineKinshipLogo.jpg" style="text-align: center; width: 100%;" alt="four dogs sitting on a ledge" />
+            <img src="~/images/CanineKinshipLogo.jpg" style="text-align: center; margin-top: -125px; width: 100%;" alt="four dogs sitting on a ledge" />
         </div>
     </div>
     <hr>
@@ -29,7 +29,7 @@
             <p>Our training methods are a combination of positive reinforcement with marking Behavior techniques, as well as cue and correction training. We do not employ prong collars, choke chains, or E collars in our regular classes. We do however teach proper use and handling of all different training aids to better help our clients to understand what will work best for them and their dog.</p>
 
             <p>
-                @Html.ActionLink("Classes Offered", "Services", "Scheduling", null, new { @class = "btn btn-default btn-lg" })
+                @Html.ActionLink("Programs", "Services", "Scheduling", null, new { @class = "btn btn-default btn-lg" })
             </p>
           
 
@@ -53,35 +53,42 @@
     </div>
     <!-- /.row -->
     <div class="row">
+        <h1 class="pillarTitle">The Pillars of Kinship</h1>
+    </div>
+    <div class="row pillar">
         <div class="col-lg-7 rowText">
-            <h2>Training Classes</h2>
-            <p>We offer training classes for a variety of behaviors Including basic obedience, advanced obedience and many more. View our course description to pick what is right for you and your companion. </p>
+            <h2>Team Work</h2>
+            <p>
+                Working together to build a cohesive unit
+            </p>
         </div>
         <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Services", "Scheduling")'>
-                <img class="img-circle img-responsive img-center" src="~/images/dog2.jpeg" alt="A service dog">
+                <img class="img-responsive img-center" src="~/images/dog2.jpeg" alt="A service dog">
             </a>
         </div>
     </div>
-    <div class="row">
+    <div class="row pillar">
         <div class="col-lg-7 rowText">
-            <h2>Class Schedule</h2>
-            <p>Our class schedule shows the starting class for each series of classes. If you viewed the classes we offer and know what class is right for you, view our class schedule and send us an email to RSVP. </p>
+            <h2>Education</h2>
+            <p>
+                Passing on knowledge to help teams and the community exist together
+            </p>
         </div>
         <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Schedule", "Scheduling")'>
-                <img class="img-circle img-responsive img-center" src="~/images/dog7.jpeg" alt="A dog">
+                <img class="img-responsive img-center" src="~/images/dog7.jpeg" alt="A dog">
             </a>
         </div>
     </div>
-    <div class="row">
+    <div class="row pillar">
         <div class="col-lg-7 rowText">
             <h2>Trainers</h2>
             <p>At Canine Kinship we have experienced trainers who have built strong relationships between dogs and owners. Each trainer is knowledgable and dedicated to creating a better life for you and your dogs.</p>
         </div>
         <div class="col-lg-4 pillarSpace">
             <a href='@Url.Action("Trainers", "Home")'>
-                <img class="img-circle img-responsive img-center" src="~/images/dog6.jpeg" alt="A dog training sign">
+                <img class="img-responsive img-center" src="~/images/dog6.jpeg" alt="A dog training sign">
             </a>
         </div>
     </div>

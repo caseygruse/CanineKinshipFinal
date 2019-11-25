@@ -41,8 +41,29 @@ body {
 .rowText {
     padding: 50px;
     padding-top: 100px;
+    text-align: center;
 }
 
 .missionStatement{
     padding-top: 100px;
+}
+
+.pillarTitle {
+    text-align: center;
+    color: forestgreen;
+    font-family: myFirstFont;
+    font-size: 60px;
+}
+
+.pillar {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: purple;
+}
+
+p{
+    font-size: 1.5em;
 }
