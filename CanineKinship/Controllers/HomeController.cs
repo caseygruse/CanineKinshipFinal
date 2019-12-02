@@ -67,5 +67,20 @@ namespace CanineKinship.Controllers
         {
             return View(FAQDB.GetAllFAQ(db));
         }
+
+        public ActionResult ADA()
+        {
+            return View();
+        }
+
+        public ActionResult Donations()
+        {
+            return View();
+        }
+
+        public ActionResult Sponsers()
+        {
+            return View();
+        }
     }
 }

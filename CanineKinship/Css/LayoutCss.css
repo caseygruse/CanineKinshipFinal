@@ -15,6 +15,11 @@ font-family: myFirstFont;
 
 .navbar {
     box-shadow: 3px 3px 60px 6px #9c27e9;
+    font-weight: bold;
+    color: white !important;
+}
+.nav {
+    color: white !important;
 }
 
 footer {
@@ -23,7 +28,6 @@ footer {
     margin-bottom: 0;
     background-color: white;
     width: 100%;
-    
 }
 
 .copyright{

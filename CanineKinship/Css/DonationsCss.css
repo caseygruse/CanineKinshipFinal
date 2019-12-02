@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.donationTitle {
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

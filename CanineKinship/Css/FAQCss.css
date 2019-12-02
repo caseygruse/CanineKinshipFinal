@@ -12,7 +12,7 @@
     
 }
 .faq_question:hover {
-    color: #ffa500;
+    color: forestgreen;
 }
 
 .faq_answer{
@@ -27,7 +27,7 @@
 }
 
 .pageTitle {
-    color: #ffa500;
+    color: forestgreen;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;

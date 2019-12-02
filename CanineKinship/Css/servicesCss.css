@@ -10,7 +10,7 @@
 }   
 
 .warningHeading {
-    color: purple;
+    color: forestgreen;
     margin-top: 50px;
     
     
@@ -98,7 +98,7 @@
 }
 
 .image {
-    border: 2px solid #ffa500;
+    border: 2px solid forestgreen;
     width: 100%;  
 }
 

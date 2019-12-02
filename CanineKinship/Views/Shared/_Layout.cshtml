@@ -26,17 +26,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @*<img src="~/images/pawPrint.png" style="margin-top: 5px;" alt="paw print"/>*@
                 @Html.ActionLink("Canine Kinship", "Index", "Home", new { area = "" }, new { @class = "navbar-brand title" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Programs", "Services", "Scheduling")</li>
-                    <li>@Html.ActionLink("Class Dates", "Schedule", "Scheduling")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Community Programs", "Services", "Scheduling")</li>
+                    <li>@Html.ActionLink("About Us", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                     <li>@Html.ActionLink("FAQ", "FAQ", "Home")</li>
-                    <li>@Html.ActionLink("Trainers", "Trainers", "Home")</li>
+                    <li>@Html.ActionLink("Staff", "Trainers", "Home")</li>
+                    <li>@Html.ActionLink("ADA", "ADA", "Home")</li>
+                    <li>@Html.ActionLink("Donations", "Donations", "Home")</li>
+                    <li>@Html.ActionLink("Sponsers", "Sponsers", "Home")</li>
                     @if (Request.IsAuthenticated)
                     {
                         <li>@Html.ActionLink("Admin", "AdminNavigation", "Admin")</li>
@@ -44,7 +45,6 @@
 
                 </ul>
                 @Html.Partial("_LoginPartial")
-                @*<img src="~/images/pawPrint.png" style="margin-top: 5px;" alt="paw print"/>*@
             </div>
         </div>
     </div>

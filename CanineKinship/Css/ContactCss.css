@@ -2,7 +2,7 @@
 }
 
 h2 {
-    color: #ffa500;
+    color: forestgreen;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 50px;
@@ -34,7 +34,7 @@ h2 {
 .emailImage {
     margin-right: 20px;
     margin-bottom: 50px;
-    border: 3px solid #ffa500;
+    border: 3px solid forestgreen;
 }
 
 
@@ -62,7 +62,7 @@ hr {
 }
 .emailSent {
     font-weight: bold;
-    color: #ffa500;
+    color: forestgreen;
     font-size: x-large
 }
 

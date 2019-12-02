@@ -23,15 +23,35 @@ body {
     }
 
 .trainer{
-	border: 2px solid #ffa500; 
+	border: 2px solid forestgreen; 
 }
 
 #title {
-    color: #ffa500;
+    color: forestgreen;
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.boardTitle {
+    text-align: center;
+    margin-bottom: 40px;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.boardMembers{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.boardInformation{
+    text-align: center;
+}
+
+.boardSpace{
     margin-bottom: 30px;
 }
