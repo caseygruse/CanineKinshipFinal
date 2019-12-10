@@ -21,7 +21,7 @@ namespace CanineKinship.Models
 
             msg.SetFrom(new EmailAddress($"{e.SendersEmail}", $"{e.FirstName}, {e.LastName}"));
 
-            var recipients = new EmailAddress("hannamyers@hotmail.com", "Hanna Myers");
+            var recipients = new EmailAddress("hannamyerselitek9@gmail.com", "Hanna Myers");
             //hannamyers @hotmail.com
 
             msg.AddTo(recipients);
@@ -30,8 +30,8 @@ namespace CanineKinship.Models
 
             msg.PlainTextContent = e.Message;
 
-            var apiKey = System.Configuration.ConfigurationManager.AppSettings.Get("sendGridKey");
-            var client = new SendGridClient(apiKey);
+            var apiKey = "";//System.Configuration.ConfigurationManager.AppSettings.Get("sendGridKey");
+                    var client = new SendGridClient(apiKey);
             
 
             await client.SendEmailAsync(msg);

@@ -12,10 +12,12 @@ h2 {
 }
 
 .info{
-    
+    padding-top: 35px;
     font-size: x-large;
+    padding-left: 20px;
+    margin-bottom: 30px;
     /*margin-left: 35px;*/
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 
 

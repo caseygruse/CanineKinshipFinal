@@ -7,8 +7,9 @@
     display: inline-block;
     cursor: pointer;
     font-weight: bold;
-    font-size: larger;
+    font-size: 2em;
     color: #3931af;
+    /*text-align: center;*/
     
 }
 .faq_question:hover {
@@ -16,7 +17,7 @@
 }
 
 .faq_answer{
-    font-size: large;
+    font-size: 1.5em;
     
 }
 
@@ -30,7 +31,7 @@
     color: forestgreen;
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
     margin-top: 30px;
 }

@@ -12,6 +12,11 @@
 <h2>@ViewBag.Title.</h2>
 <div class="row">
     <div class="col-lg-6">
+        <div>
+            <img src="~/images/CanineKinshipLogo.jpg" class="img-responsive" width="550" height="475" style="margin-top: -50px" />
+        </div>      
+    </div>
+    <div class="col-lg-6">
         <div class="info">
             <address>
                 <strong>Canine Kinship</strong>
@@ -27,56 +32,58 @@
             <a href="https://www.facebook.com/CanineKinshipTacoma/"> <img src="~/images/f-ogo_RGB_HEX-58.png" alt="Facebook Logo" /> </a>
         </div>
     </div>
+        @* Uncomment the below code if you would like to include an email form
+             This would require you to get a free sendgrid api key and put in in the sendgrid email model.
+            *@
+        @*<div class="col-lg-6">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
 
-    <div class="col-lg-6">
-        @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
+                    <div class="form-horizontal emailForm">
+                        <h4>Send us an email for more information.</h4>
+                        <h4 class="emailSent">@ViewBag.sent</h4>
+                        <hr id="formLine" />
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Email:</label>
+                            <div class="col-md-9">
+                                @Html.EditorFor(model => model.SendersEmail, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.SendersEmail, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
 
-            <div class="form-horizontal emailForm">
-                <h4>Send us an email for more information.</h4>
-                <h4 class="emailSent">@ViewBag.sent</h4>
-                <hr id="formLine" />
-                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                <div class="form-group">
-                    <label class="control-label col-md-3">Email:</label>
-                    <div class="col-md-9">
-                        @Html.EditorFor(model => model.SendersEmail, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.SendersEmail, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <label class="control-label col-md-3">First Name:</label>
+                            <div class="col-md-9">
+                                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Last Name:</label>
+                            <div class="col-md-9">
+                                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-md-3">Message:</label>
+                            <div class="col-md-9">
+                                @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control messageBox" } })
+                                @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+
+                        <div class="form-group" id="submitForm">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Send Email" class="btn btn-default" alt="submit send email form" aria-label="submit email" />
+                            </div>
+                        </div>
+
                     </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="control-label col-md-3">First Name:</label>
-                    <div class="col-md-9">
-                        @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="control-label col-md-3">Last Name:</label>
-                    <div class="col-md-9">
-                        @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <label class="control-label col-md-3">Message:</label>
-                    <div class="col-md-9">
-                        @Html.EditorFor(model => model.Message, new { htmlAttributes = new { @class = "form-control messageBox" } })
-                        @Html.ValidationMessageFor(model => model.Message, "", new { @class = "text-danger" })
-                    </div>
-                </div>
-
-                <div class="form-group" id="submitForm">
-                    <div class="col-md-offset-2 col-md-10">
-                        <input type="submit" value="Send Email" class="btn btn-default" alt="submit send email form" aria-label="submit email" />
-                    </div>
-                </div>
-
-            </div>
-        }
+                }
+            </div>*@
     </div>
-</div>

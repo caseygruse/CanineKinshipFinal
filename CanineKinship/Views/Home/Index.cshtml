@@ -14,14 +14,12 @@
 <!-- Page Content -->
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
-            <img src="~/images/CanineKinshipLogo.jpg" style="text-align: center; margin-top: -125px; width: 100%;" alt="four dogs sitting on a ledge" />
-        </div>
+       @*Hannah may want involve the log here some how.*@
     </div>
     <hr>
-    <div class="row">
+    <div class="row firstRow">
         <div class="col-lg-4 col-sm-12">
-            <img src="~/images/HomeDog.jpeg" style="width: 350px; height: 500px;"/>
+            <img class="img-responsive" src="~/images/HomeDog.jpeg" style="width: 350px; height: 500px; padding-top:40px;"/>
         </div>
         <div class="col-lg-8 col-sm-12 missionStatement">
             <h2 style="color: purple; font-family: myFirstFont;">What We Do</h2>
@@ -63,9 +61,7 @@
             </p>
         </div>
         <div class="col-lg-4 pillarSpace">
-            <a href='@Url.Action("Services", "Scheduling")'>
-                <img class="img-responsive img-center" src="~/images/dog2.jpeg" alt="A service dog">
-            </a>
+            <img class="img-responsive img-center" src="~/images/dog2.jpeg" alt="A service dog">
         </div>
     </div>
     <div class="row pillar">
@@ -76,9 +72,7 @@
             </p>
         </div>
         <div class="col-lg-4 pillarSpace">
-            <a href='@Url.Action("Schedule", "Scheduling")'>
-                <img class="img-responsive img-center" src="~/images/dog7.jpeg" alt="A dog">
-            </a>
+            <img class="img-responsive img-center" src="~/images/dog7.jpeg" alt="A dog">
         </div>
     </div>
     <div class="row pillar">
@@ -87,9 +81,7 @@
             <p>At Canine Kinship we have experienced trainers who have built strong relationships between dogs and owners. Each trainer is knowledgable and dedicated to creating a better life for you and your dogs.</p>
         </div>
         <div class="col-lg-4 pillarSpace">
-            <a href='@Url.Action("Trainers", "Home")'>
-                <img class="img-responsive img-center" src="~/images/dog6.jpeg" alt="A dog training sign">
-            </a>
+            <img class="img-responsive img-center" src="~/images/dog6.jpeg" alt="A dog training sign">
         </div>
     </div>
     <!-- /.row -->
